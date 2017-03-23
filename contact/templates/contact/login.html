@@ -1,0 +1,10 @@
+{{ error }}
+<form id="loginform" method="POST" action="">
+  {% csrf_token %}
+  Username:<br>
+  <input type="text" name="username"><br>
+  Password:<br>
+  <input type="password" name="password"><br>
+  
+  <input type="submit" value="Login">
+</form>
